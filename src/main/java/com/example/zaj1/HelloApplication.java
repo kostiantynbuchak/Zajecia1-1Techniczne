@@ -1,5 +1,6 @@
 package com.example.zaj1;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -17,5 +18,20 @@ public class HelloApplication extends Application {
 
     public static void main(String[] args) {
         launch();
+    }
+
+    public void add(ActionEvent actionEvent) {
+    }
+
+    public void subtract(ActionEvent actionEvent) {
+    }
+
+    public void multiply(ActionEvent actionEvent) {
+    }
+
+    public void divide(ActionEvent actionEvent) {
+    }
+
+    public void analyzeText(ActionEvent actionEvent) {
     }
 }

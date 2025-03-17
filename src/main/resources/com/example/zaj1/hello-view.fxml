@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="HelloController">
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.zaj1.HelloApplication">
     <VBox spacing="15" alignment="CENTER" prefWidth="350" prefHeight="400">
 
         <!-- Kalkulator -->

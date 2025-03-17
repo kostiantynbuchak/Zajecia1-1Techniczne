@@ -19,19 +19,25 @@ public class HelloApplication extends Application {
     public static void main(String[] args) {
         launch();
     }
-
     public void add(ActionEvent actionEvent) {
+        controller.add();
     }
 
     public void subtract(ActionEvent actionEvent) {
+        controller.subtract();
     }
 
     public void multiply(ActionEvent actionEvent) {
-    }
+        controller.multiply();
 
     public void divide(ActionEvent actionEvent) {
+        controller.divide();
     }
 
+
+
     public void analyzeText(ActionEvent actionEvent) {
+        controller.analyzeText();
+
     }
 }

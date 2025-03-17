@@ -13,7 +13,6 @@ public class HelloController {
     @FXML
     private Label calcResultLabel, textResultLabel;
 
-    // Obsługa kalkulatora
     @FXML
     private void add() { calculate('+'); }
 

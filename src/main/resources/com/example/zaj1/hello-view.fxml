@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="HelloController">
+    <VBox spacing="15" alignment="CENTER" prefWidth="350" prefHeight="400">
+
+        <!-- Kalkulator -->
+        <Label text="Prosty Kalkulator" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <TextField fx:id="num1Field" promptText="Liczba 1"/>
+        <TextField fx:id="num2Field" promptText="Liczba 2"/>
+        <Label fx:id="calcResultLabel" text="Wynik: " style="-fx-font-size: 14px;"/>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="+" onAction="#add"/>
+            <Button text="-" onAction="#subtract"/>
+            <Button text="×" onAction="#multiply"/>
+            <Button text="÷" onAction="#divide"/>
+        </HBox>
+
+        <!-- Licznik znaków i słów -->
+        <Label text="Licznik znaków i słów" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <TextField fx:id="textInputField" promptText="Wpisz tekst"/>
+        <Button text="OK" onAction="#analyzeText"/>
+        <Label fx:id="textResultLabel" text="Znaki: 0 | Słowa: 0" style="-fx-font-size: 14px;"/>
+
+    </VBox>
+</AnchorPane>
